@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/cy_d"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tDollar" />
+
+    <EditText
+        android:id="@+id/tDollar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cy_e"
+        android:layout_below="@+id/tDollar"
+        android:layout_alignStart="@+id/tDollar"
+        android:layout_marginTop="21dp" />
+
+    <EditText
+        android:id="@+id/tEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:text=""
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:id="@+id/bCreateBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tEuro"
+        android:layout_alignStart="@+id/tEuro"
+        android:layout_centerVertical="true"
+        android:text="@string/create_bank" />
+
+    <Button
+        android:id="@+id/bTransLook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/look_trans"
+        android:layout_below="@+id/bCreateBank"
+        android:layout_alignStart="@+id/bCreateBank"
+        android:layout_alignEnd="@+id/bCreateBank" />
+
+    <Button
+        android:id="@+id/bLook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/look_bank"
+        android:layout_marginTop="18dp"
+        android:layout_below="@+id/bTransLook"
+        android:layout_alignStart="@+id/bTransLook"
+        android:layout_alignEnd="@+id/bTransLook" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Домашний Бухгалтер</string>
+
+    <string name="clear">Очистить</string>
+    <string name="bank_name">Введите название счёта:</string>
+    <string name="create">Создать</string>
+
+    <string name="trans_minus">Перевести</string>
+    <string name="trans_plus">Пополнить</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_all">Удалить всё</string>
+
+    <string name="input_sum">Введите сумму:</string>
+    <string name="rub">Рублей</string>
+    <string name="dollar">Долларов</string>
+    <string name="euro">Евро</string>
+    <string name="create_trans">Выполнить</string>
+    <string name="comment">Комментарий</string>
+
+    <string name="cy_d">Курс Доллар</string>
+    <string name="cy_e">Курс Евро</string>
+    <string name="create_bank">Создать счёт</string>
+    <string name="look_trans">Посмотреть операции</string>
+    <string name="look_bank">Посмотреть счета</string>
+</resources>
